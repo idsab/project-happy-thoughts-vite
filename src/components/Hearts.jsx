@@ -1,7 +1,8 @@
 export const Hearts = ({ hearts }) => {
   return (
-    <div>
-      <p>{hearts}</p>
+    <div className="test">
+     <button id="heartbtn">❤️</button>
+     <p id="heartfont">x{hearts}</p>
     </div>
   );
 };
