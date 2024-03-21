@@ -1,10 +1,25 @@
 .form-container { 
-background-color: rgb(209, 204, 204);
+background-color: rgb(229, 224, 224);
 border: 1px solid black;
 margin: 60px;
 padding:9px;
-box-shadow: 7px 7px 2px 1px black; }
+box-shadow: 7px 7px 2px 1px black; 
+display:flex;
+flex-direction: column;
+}
 
-.heart-btn {
+#submit-btn {
     background-color: pink;
+    border-radius: 20px;
+    display: flex;
+    padding:9px;
+    border:none;
+    font-weight: 600;
+
+}
+
+.text-input {
+    padding:25px;
+    margin:5px;
+    width:85%;
 }

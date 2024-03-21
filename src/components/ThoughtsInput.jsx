@@ -18,7 +18,7 @@ export const ThoughtsInput = ({
           {" "}
         </textarea>
         <button id="submit-btn" type="submit">
-          Send Happy Thought
+          ❤️Send Happy Thought❤️
         </button>
       </form>
     </div>
