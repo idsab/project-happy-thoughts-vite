@@ -1,0 +1,10 @@
+.form-container { 
+background-color: rgb(209, 204, 204);
+border: 1px solid black;
+margin: 60px;
+padding:9px;
+box-shadow: 7px 7px 2px 1px black; }
+
+.heart-btn {
+    background-color: pink;
+}

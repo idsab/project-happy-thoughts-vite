@@ -1,8 +1,8 @@
 import { Hearts } from "./Hearts.jsx"
 import { Time } from "./Time.jsx"
-import "./ThoughtsMessage.css"
+import "./Thoughts.css"
 
-export const ThoughtsMessage = ({ message, hearts, time}) => {
+export const Thoughts = ({ message, hearts, time}) => {
   return (
     <div className="thoughts-container">
         <p id="message">{message}</p>
