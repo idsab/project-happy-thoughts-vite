@@ -21,5 +21,5 @@ flex-direction: column;
 .text-input {
     padding:25px;
     margin:5px;
-    width:85%;
+    min-width:70%;
 }
