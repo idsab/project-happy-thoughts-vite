@@ -1,47 +1,44 @@
 .thoughts-container {
   border: 1px solid black;
   margin: 60px;
-  padding:25px;
+  padding: 25px;
   box-shadow: 7px 7px 2px 1px black;
-
- }
+}
 
 #heartbtn {
   background-color: rgb(216, 207, 207);
   border-radius: 50%;
-  margin:4px;
-  padding:10px;
-  font-size:17px;
-  border:none;
+  margin: 4px;
+  padding: 10px;
+  font-size: 17px;
+  border: none;
 }
 
 #heartbtn:hover {
-    background-color: pink;
+  background-color: pink;
 }
 
 #heartbtn:active {
-    background-color: pink; 
+  background-color: pink;
 }
 
 .test {
   display: flex;
   justify-content: space-between;
-  font-size:14px;
+  font-size: 14px;
 }
 
 .row-items {
   display: flex;
   justify-content: space-between;
-  margin-right:10px;
-  font-size:14px;
+  margin-right: 10px;
+  font-size: 14px;
   color: gray;
-
 }
 
 #message {
   font-size: 20px;
   font-weight: 700;
-  margin:10px;
+  margin: 10px;
   display: flex;
- 
 }
