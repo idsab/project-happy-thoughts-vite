@@ -8,7 +8,7 @@ export const ThoughtsInput = ({
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-        <p>What is making you happy right now?</p>
+        <p id="input-title">What is making you happy right now?</p>
         <textarea
           className="text-input"
           value={addThought}
@@ -18,7 +18,7 @@ export const ThoughtsInput = ({
           {" "}
         </textarea>
         <button id="submit-btn" type="submit">
-          ❤️Send Happy Thought❤️
+          ❤️ Send Happy Thought ❤️
         </button>
       </form>
     </div>

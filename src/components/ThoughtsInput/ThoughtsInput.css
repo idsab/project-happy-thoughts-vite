@@ -1,5 +1,5 @@
 .form-container { 
-background-color: rgb(229, 224, 224);
+background-color: rgb(242, 238, 238);
 border: 1px solid black;
 margin: 60px;
 padding:9px;
@@ -15,11 +15,24 @@ flex-direction: column;
     padding:9px;
     border:none;
     font-weight: 600;
+    font-size:16px;
+    margin:5px;
+    font-family: courier new;
 
+}
+
+#submit-btn:hover {
+    background-color:rgb(200, 196, 196);
 }
 
 .text-input {
     padding:25px;
     margin:5px;
     min-width:70%;
+}
+
+#input-title {
+    font-size:20px;
+    font-weight:600;
+    margin-left:10px;
 }
